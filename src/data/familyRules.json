@@ -1,0 +1,100 @@
+[
+  {
+    "familia": "golpe_puno",
+    "repetiblePorDefecto": true,
+    "maxRepeticionesSugeridas": 5,
+    "repeticionConsecutivaPermitida": true,
+    "penalizacionBasePorRepeticion": 6
+  },
+  {
+    "familia": "bloqueo",
+    "repetiblePorDefecto": true,
+    "maxRepeticionesSugeridas": 4,
+    "repeticionConsecutivaPermitida": true,
+    "penalizacionBasePorRepeticion": 8
+  },
+  {
+    "familia": "esquiva",
+    "repetiblePorDefecto": true,
+    "maxRepeticionesSugeridas": 3,
+    "repeticionConsecutivaPermitida": true,
+    "penalizacionBasePorRepeticion": 10
+  },
+  {
+    "familia": "desplazamiento",
+    "repetiblePorDefecto": true,
+    "maxRepeticionesSugeridas": 3,
+    "repeticionConsecutivaPermitida": true,
+    "penalizacionBasePorRepeticion": 10
+  },
+  {
+    "familia": "desvio",
+    "repetiblePorDefecto": true,
+    "maxRepeticionesSugeridas": 3,
+    "repeticionConsecutivaPermitida": true,
+    "penalizacionBasePorRepeticion": 8
+  },
+  {
+    "familia": "patada",
+    "repetiblePorDefecto": true,
+    "maxRepeticionesSugeridas": 2,
+    "repeticionConsecutivaPermitida": true,
+    "penalizacionBasePorRepeticion": 14
+  },
+  {
+    "familia": "rodillazo",
+    "repetiblePorDefecto": true,
+    "maxRepeticionesSugeridas": 3,
+    "repeticionConsecutivaPermitida": true,
+    "penalizacionBasePorRepeticion": 12
+  },
+  {
+    "familia": "codo",
+    "repetiblePorDefecto": true,
+    "maxRepeticionesSugeridas": 3,
+    "repeticionConsecutivaPermitida": true,
+    "penalizacionBasePorRepeticion": 12
+  },
+  {
+    "familia": "control",
+    "repetiblePorDefecto": false,
+    "maxRepeticionesSugeridas": 2,
+    "repeticionConsecutivaPermitida": false,
+    "penalizacionBasePorRepeticion": 18
+  },
+  {
+    "familia": "escape",
+    "repetiblePorDefecto": false,
+    "maxRepeticionesSugeridas": 1,
+    "repeticionConsecutivaPermitida": false,
+    "penalizacionBasePorRepeticion": 25
+  },
+  {
+    "familia": "separacion",
+    "repetiblePorDefecto": true,
+    "maxRepeticionesSugeridas": 2,
+    "repeticionConsecutivaPermitida": true,
+    "penalizacionBasePorRepeticion": 14
+  },
+  {
+    "familia": "proyeccion",
+    "repetiblePorDefecto": false,
+    "maxRepeticionesSugeridas": 1,
+    "repeticionConsecutivaPermitida": false,
+    "penalizacionBasePorRepeticion": 30
+  },
+  {
+    "familia": "derribo",
+    "repetiblePorDefecto": false,
+    "maxRepeticionesSugeridas": 1,
+    "repeticionConsecutivaPermitida": false,
+    "penalizacionBasePorRepeticion": 24
+  },
+  {
+    "familia": "luxacion",
+    "repetiblePorDefecto": false,
+    "maxRepeticionesSugeridas": 2,
+    "repeticionConsecutivaPermitida": false,
+    "penalizacionBasePorRepeticion": 20
+  }
+]

@@ -1,0 +1,1963 @@
+[
+    {
+        "id":  "tec_001",
+        "nombre":  "Recepcion corta",
+        "categoria":  "recepciones",
+        "subcategoria":  "contacto",
+        "descripcion":  "Recepcion compacta para golpes directos en corta distancia.",
+        "nivel":  "basico",
+        "posicionesValidas":  [
+                                  "de_pie"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "corta",
+                                  "contacto"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda"
+                                   ],
+        "limitantesIncompatibles":  [
+
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  false,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  true,
+        "faseSugerida":  [
+                             "respuesta_inicial"
+                         ],
+        "puedeIniciar":  true,
+        "puedeContinuar":  true,
+        "puedeCerrar":  false,
+        "transicionesValidas":  [
+                                    "tec_004",
+                                    "tec_011",
+                                    "tec_013"
+                                ],
+        "transicionesInvalidas":  [
+                                      "tec_010"
+                                  ],
+        "prioridadContextual":  {
+                                    "respuesta_basica":  10
+                                },
+        "erroresComunes":  [
+                               "brazos demasiado extendidos"
+                           ],
+        "tags":  [
+                     "recepcion",
+                     "corto"
+                 ],
+        "familia":  "desvio",
+        "tipo":  "recepcion",
+        "variante":  "contacto",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  3,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  8,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "mantiene",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mejora"
+    },
+    {
+        "id":  "tec_002",
+        "nombre":  "Bloqueo alto",
+        "categoria":  "bloqueos",
+        "subcategoria":  "cabeza",
+        "descripcion":  "Bloqueo alto para golpes circulares al rostro.",
+        "nivel":  "basico",
+        "posicionesValidas":  [
+                                  "de_pie",
+                                  "sentado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "media",
+                                  "corta"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "lado_derecho",
+                                       "lado_izquierdo"
+                                   ],
+        "limitantesIncompatibles":  [
+
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  true,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  false,
+        "compatibleConPiernaLimitada":  true,
+        "faseSugerida":  [
+                             "respuesta_inicial"
+                         ],
+        "puedeIniciar":  true,
+        "puedeContinuar":  true,
+        "puedeCerrar":  false,
+        "transicionesValidas":  [
+                                    "tec_005",
+                                    "tec_013"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "respuesta_basica":  9
+                                },
+        "erroresComunes":  [
+                               "subir hombros"
+                           ],
+        "tags":  [
+                     "bloqueo",
+                     "alto"
+                 ],
+        "familia":  "bloqueo",
+        "tipo":  "bloqueo",
+        "variante":  "cabeza",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  4,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  8,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "mantiene",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mantiene"
+    },
+    {
+        "id":  "tec_003",
+        "nombre":  "Esquiva lateral",
+        "categoria":  "esquivas",
+        "subcategoria":  "fuera de linea",
+        "descripcion":  "Saca el cuerpo de la linea principal de ataque.",
+        "nivel":  "intermedio",
+        "posicionesValidas":  [
+                                  "de_pie"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "media",
+                                  "corta"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "movilidad_parcial"
+                                    ],
+        "requiereMovilidad":  true,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  false,
+        "permitidaSentado":  false,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  true,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  false,
+        "faseSugerida":  [
+                             "ajuste_reorientacion"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_007",
+                                    "tec_013"
+                                ],
+        "transicionesInvalidas":  [
+                                      "tec_015"
+                                  ],
+        "prioridadContextual":  {
+                                    "adaptacion_espacial":  10
+                                },
+        "erroresComunes":  [
+                               "cruzar pies"
+                           ],
+        "tags":  [
+                     "esquiva",
+                     "lateral"
+                 ],
+        "familia":  "esquiva",
+        "tipo":  "esquiva",
+        "variante":  "fuera de linea",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  3,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  10,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "mantiene",
+        "efectoOrientacion":  "perfil_derecha",
+        "efectoEquilibrio":  "mantiene"
+    },
+    {
+        "id":  "tec_004",
+        "nombre":  "Desplazamiento diagonal",
+        "categoria":  "desplazamientos",
+        "subcategoria":  "diagonal",
+        "descripcion":  "Desplazamiento angular para abrir linea de salida.",
+        "nivel":  "basico",
+        "posicionesValidas":  [
+                                  "de_pie"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "media",
+                                  "corta",
+                                  "contacto"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "poco_espacio",
+                                        "obstaculo_detras"
+                                    ],
+        "requiereMovilidad":  true,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  false,
+        "permitidaSentado":  false,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  true,
+        "requiereEspacioAmplio":  true,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  false,
+        "faseSugerida":  [
+                             "ajuste_reorientacion",
+                             "salida_control_separacion"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_013",
+                                    "tec_014"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "salida_tactica":  9
+                                },
+        "erroresComunes":  [
+                               "moverse en linea recta"
+                           ],
+        "tags":  [
+                     "desplazamiento",
+                     "diagonal"
+                 ],
+        "familia":  "desplazamiento",
+        "tipo":  "paso",
+        "variante":  "diagonal",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  3,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  10,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "amplia",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mantiene"
+    },
+    {
+        "id":  "tec_005",
+        "nombre":  "Giro parcial",
+        "categoria":  "giros",
+        "subcategoria":  "reorientacion",
+        "descripcion":  "Giro parcial para mejorar orientacion corporal.",
+        "nivel":  "intermedio",
+        "posicionesValidas":  [
+                                  "de_pie",
+                                  "sentado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "corta",
+                                  "contacto",
+                                  "clinch"
+                              ],
+        "direccionesCompatibles":  [
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda",
+                                       "desde_atras"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "movilidad_parcial"
+                                    ],
+        "requiereMovilidad":  true,
+        "requiereGiro":  true,
+        "tipoGiro":  "parcial",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  true,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  false,
+        "faseSugerida":  [
+                             "ajuste_reorientacion"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  false,
+        "transicionesValidas":  [
+                                    "tec_006",
+                                    "tec_011"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "orientacion_corporal":  10
+                                },
+        "erroresComunes":  [
+                               "girar sin base"
+                           ],
+        "tags":  [
+                     "giro",
+                     "angulo"
+                 ],
+        "familia":  "desplazamiento",
+        "tipo":  "giro",
+        "variante":  "reorientacion",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  2,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  12,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "mantiene",
+        "efectoOrientacion":  "desfasada",
+        "efectoEquilibrio":  "compromete"
+    },
+    {
+        "id":  "tec_006",
+        "nombre":  "Golpe de puno recto",
+        "categoria":  "golpes_puno",
+        "subcategoria":  "recto",
+        "descripcion":  "Golpe directo para frenar avance.",
+        "nivel":  "intermedio",
+        "posicionesValidas":  [
+                                  "de_pie"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "corta",
+                                  "media"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "mano_ocupada"
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  false,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  false,
+        "compatibleConPiernaLimitada":  true,
+        "faseSugerida":  [
+                             "accion_principal"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_013",
+                                    "tec_014"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "continuidad":  7
+                                },
+        "erroresComunes":  [
+                               "perder guardia"
+                           ],
+        "tags":  [
+                     "puno",
+                     "recto"
+                 ],
+        "familia":  "golpe_puno",
+        "tipo":  "golpe",
+        "variante":  "recto",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  5,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  6,
+        "compatibleDespuesDe":  [
+                                    "bloqueo",
+                                    "desvio",
+                                    "esquiva",
+                                    "golpe_puno"
+                                ],
+        "compatibleAntesDe":  [
+                                  "golpe_puno",
+                                  "patada",
+                                  "control"
+                              ],
+        "efectoDistancia":  "mantiene",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mantiene"
+    },
+    {
+        "id":  "tec_007",
+        "nombre":  "Golpe de mano abierta",
+        "categoria":  "golpes_mano_abierta",
+        "subcategoria":  "palma",
+        "descripcion":  "Impacto de palma para crear espacio.",
+        "nivel":  "basico",
+        "posicionesValidas":  [
+                                  "de_pie",
+                                  "sentado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "corta"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "lado_derecho",
+                                       "lado_izquierdo"
+                                   ],
+        "limitantesIncompatibles":  [
+
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  true,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  true,
+        "faseSugerida":  [
+                             "accion_principal"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_013"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "respuesta_basica":  7
+                                },
+        "erroresComunes":  [
+                               "empujar en vez de impactar"
+                           ],
+        "tags":  [
+                     "mano_abierta",
+                     "palma"
+                 ],
+        "familia":  "golpe_puno",
+        "tipo":  "mano_abierta",
+        "variante":  "palma",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  4,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  7,
+        "compatibleDespuesDe":  [
+                                    "bloqueo",
+                                    "desvio",
+                                    "esquiva",
+                                    "golpe_puno"
+                                ],
+        "compatibleAntesDe":  [
+                                  "golpe_puno",
+                                  "patada",
+                                  "control"
+                              ],
+        "efectoDistancia":  "amplia",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mantiene"
+    },
+    {
+        "id":  "tec_008",
+        "nombre":  "Codo corto",
+        "categoria":  "codos",
+        "subcategoria":  "cercano",
+        "descripcion":  "Codo compacto para distancia de contacto.",
+        "nivel":  "avanzado",
+        "posicionesValidas":  [
+                                  "de_pie"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "clinch"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "lado_derecho",
+                                       "lado_izquierdo"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "mano_ocupada"
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  true,
+        "tipoGiro":  "parcial",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  false,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  false,
+        "compatibleConPiernaLimitada":  true,
+        "faseSugerida":  [
+                             "accion_principal"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_013"
+                                ],
+        "transicionesInvalidas":  [
+                                      "tec_010"
+                                  ],
+        "prioridadContextual":  {
+                                    "continuidad":  6
+                                },
+        "erroresComunes":  [
+                               "amplitud grande"
+                           ],
+        "tags":  [
+                     "codo",
+                     "contacto"
+                 ],
+        "familia":  "codo",
+        "tipo":  "codo",
+        "variante":  "cercano",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  3,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  12,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "acorta",
+        "efectoOrientacion":  "perfil_derecha",
+        "efectoEquilibrio":  "mantiene"
+    },
+    {
+        "id":  "tec_009",
+        "nombre":  "Rodilla corta",
+        "categoria":  "rodillas",
+        "subcategoria":  "clinch",
+        "descripcion":  "Rodilla para cortar avance en clinch.",
+        "nivel":  "intermedio",
+        "posicionesValidas":  [
+                                  "de_pie"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "clinch"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "suelo_resbaladizo"
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  false,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  true,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  false,
+        "faseSugerida":  [
+                             "accion_principal"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_013"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "continuidad":  6
+                                },
+        "erroresComunes":  [
+                               "sin control de balance"
+                           ],
+        "tags":  [
+                     "rodilla",
+                     "clinch"
+                 ],
+        "familia":  "rodillazo",
+        "tipo":  "rodilla",
+        "variante":  "clinch",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  3,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  12,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "acorta",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "compromete"
+    },
+    {
+        "id":  "tec_010",
+        "nombre":  "Patada baja",
+        "categoria":  "patadas",
+        "subcategoria":  "low",
+        "descripcion":  "Patada baja para distancia media.",
+        "nivel":  "intermedio",
+        "posicionesValidas":  [
+                                  "de_pie"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "media",
+                                  "larga"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "suelo_resbaladizo",
+                                        "movilidad_parcial"
+                                    ],
+        "requiereMovilidad":  true,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  false,
+        "permitidaSentado":  false,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  true,
+        "requiereEspacioAmplio":  true,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  false,
+        "faseSugerida":  [
+                             "accion_principal"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_014"
+                                ],
+        "transicionesInvalidas":  [
+                                      "tec_001",
+                                      "tec_008"
+                                  ],
+        "prioridadContextual":  {
+                                    "adaptacion_espacial":  5
+                                },
+        "erroresComunes":  [
+                               "sin guardia alta"
+                           ],
+        "tags":  [
+                     "patada",
+                     "media"
+                 ],
+        "familia":  "patada",
+        "tipo":  "patada",
+        "variante":  "low",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  2,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  14,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "amplia",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "compromete"
+    },
+    {
+        "id":  "tec_011",
+        "nombre":  "Control de brazo",
+        "categoria":  "controles",
+        "subcategoria":  "encuadre",
+        "descripcion":  "Control temporal del brazo atacante.",
+        "nivel":  "intermedio",
+        "posicionesValidas":  [
+                                  "de_pie",
+                                  "sentado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "clinch",
+                                  "corta"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "lado_derecho",
+                                       "lado_izquierdo"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "mano_ocupada"
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  true,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  false,
+        "compatibleConPiernaLimitada":  true,
+        "faseSugerida":  [
+                             "ajuste_reorientacion",
+                             "salida_control_separacion"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_013",
+                                    "tec_014"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "continuidad":  8
+                                },
+        "erroresComunes":  [
+                               "falta de base"
+                           ],
+        "tags":  [
+                     "control",
+                     "brazo"
+                 ],
+        "familia":  "control",
+        "tipo":  "control",
+        "variante":  "encuadre",
+        "repetible":  false,
+        "maxRepeticionesSugeridas":  2,
+        "repeticionConsecutivaPermitida":  false,
+        "penalizacionPorRepeticion":  18,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+                                  "luxacion",
+                                  "proyeccion",
+                                  "derribo",
+                                  "separacion"
+                              ],
+        "efectoDistancia":  "acorta",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mejora"
+    },
+    {
+        "id":  "tec_012",
+        "nombre":  "Desvio de antebrazo",
+        "categoria":  "desvios",
+        "subcategoria":  "exterior",
+        "descripcion":  "Desvia la linea del ataque con antebrazo.",
+        "nivel":  "basico",
+        "posicionesValidas":  [
+                                  "de_pie",
+                                  "sentado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "corta",
+                                  "contacto"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda"
+                                   ],
+        "limitantesIncompatibles":  [
+
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  true,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  true,
+        "faseSugerida":  [
+                             "respuesta_inicial",
+                             "ajuste_reorientacion"
+                         ],
+        "puedeIniciar":  true,
+        "puedeContinuar":  true,
+        "puedeCerrar":  false,
+        "transicionesValidas":  [
+                                    "tec_005",
+                                    "tec_013"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "respuesta_basica":  8
+                                },
+        "erroresComunes":  [
+                               "empujar en vez de desviar"
+                           ],
+        "tags":  [
+                     "desvio",
+                     "antebrazo"
+                 ],
+        "familia":  "desvio",
+        "tipo":  "desvio",
+        "variante":  "exterior",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  3,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  8,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "mantiene",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mantiene"
+    },
+    {
+        "id":  "tec_013",
+        "nombre":  "Separacion estructural",
+        "categoria":  "separaciones",
+        "subcategoria":  "crear distancia",
+        "descripcion":  "Separa con base para crear espacio funcional.",
+        "nivel":  "basico",
+        "posicionesValidas":  [
+                                  "de_pie",
+                                  "sentado",
+                                  "derribado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "corta",
+                                  "clinch"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda",
+                                       "desde_atras"
+                                   ],
+        "limitantesIncompatibles":  [
+
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  true,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  true,
+        "faseSugerida":  [
+                             "salida_control_separacion"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_014"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "salida_tactica":  10
+                                },
+        "erroresComunes":  [
+                               "empujar sin equilibrio"
+                           ],
+        "tags":  [
+                     "separacion",
+                     "salida"
+                 ],
+        "familia":  "separacion",
+        "tipo":  "separacion",
+        "variante":  "crear distancia",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  2,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  14,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "amplia",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mejora"
+    },
+    {
+        "id":  "tec_014",
+        "nombre":  "Escape angular",
+        "categoria":  "escapes",
+        "subcategoria":  "tactico",
+        "descripcion":  "Salida angular con escaneo visual.",
+        "nivel":  "basico",
+        "posicionesValidas":  [
+                                  "de_pie",
+                                  "sentado",
+                                  "derribado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "corta",
+                                  "media",
+                                  "contacto"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda",
+                                       "desde_atras"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "obstaculo_detras"
+                                    ],
+        "requiereMovilidad":  true,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  false,
+        "permitidaSentado":  true,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  true,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  false,
+        "faseSugerida":  [
+                             "salida_control_separacion"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "salida_tactica":  10,
+                                    "adaptacion_espacial":  7
+                                },
+        "erroresComunes":  [
+                               "no mirar entorno"
+                           ],
+        "tags":  [
+                     "escape",
+                     "angulo"
+                 ],
+        "familia":  "escape",
+        "tipo":  "escape",
+        "variante":  "tactico",
+        "repetible":  false,
+        "maxRepeticionesSugeridas":  1,
+        "repeticionConsecutivaPermitida":  false,
+        "penalizacionPorRepeticion":  25,
+        "compatibleDespuesDe":  [
+                                    "separacion",
+                                    "bloqueo",
+                                    "desplazamiento"
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "amplia",
+        "efectoOrientacion":  "desfasada",
+        "efectoEquilibrio":  "mejora"
+    },
+    {
+        "id":  "tec_015",
+        "nombre":  "Incorporacion desde suelo",
+        "categoria":  "incorporaciones",
+        "subcategoria":  "tecnica",
+        "descripcion":  "Incorporacion protegida desde suelo.",
+        "nivel":  "basico",
+        "posicionesValidas":  [
+                                  "suelo_boca_arriba",
+                                  "suelo_de_lado",
+                                  "boca_abajo",
+                                  "derribado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "corta",
+                                  "media"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "lado_derecho",
+                                       "lado_izquierdo",
+                                       "desde_atras"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "incorporacion_dificil"
+                                    ],
+        "requiereMovilidad":  true,
+        "requiereGiro":  true,
+        "tipoGiro":  "parcial",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  false,
+        "permitidaSuelo":  true,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  false,
+        "compatibleConPiernaLimitada":  false,
+        "faseSugerida":  [
+                             "respuesta_inicial",
+                             "salida_control_separacion"
+                         ],
+        "puedeIniciar":  true,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_013",
+                                    "tec_014"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "incorporacion":  10
+                                },
+        "erroresComunes":  [
+                               "levantarse de espaldas"
+                           ],
+        "tags":  [
+                     "suelo",
+                     "incorporacion"
+                 ],
+        "familia":  "escape",
+        "tipo":  "incorporacion",
+        "variante":  "tecnica",
+        "repetible":  false,
+        "maxRepeticionesSugeridas":  1,
+        "repeticionConsecutivaPermitida":  false,
+        "penalizacionPorRepeticion":  20,
+        "compatibleDespuesDe":  [
+                                    "separacion",
+                                    "bloqueo",
+                                    "desplazamiento"
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "amplia",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mejora"
+    },
+    {
+        "id":  "tec_016",
+        "nombre":  "Cobertura de cabeza",
+        "categoria":  "coberturas",
+        "subcategoria":  "escudo",
+        "descripcion":  "Cubre cabeza y cuello en presion corta.",
+        "nivel":  "basico",
+        "posicionesValidas":  [
+                                  "de_pie",
+                                  "sentado",
+                                  "derribado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "clinch",
+                                  "corta"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "lado_derecho",
+                                       "lado_izquierdo",
+                                       "desde_atras"
+                                   ],
+        "limitantesIncompatibles":  [
+
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  true,
+        "permitidaSuelo":  true,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  true,
+        "faseSugerida":  [
+                             "respuesta_inicial"
+                         ],
+        "puedeIniciar":  true,
+        "puedeContinuar":  true,
+        "puedeCerrar":  false,
+        "transicionesValidas":  [
+                                    "tec_013",
+                                    "tec_015"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "respuesta_basica":  8
+                                },
+        "erroresComunes":  [
+                               "cerrar vision"
+                           ],
+        "tags":  [
+                     "cobertura",
+                     "cabeza"
+                 ],
+        "familia":  "bloqueo",
+        "tipo":  "cobertura",
+        "variante":  "escudo",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  3,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  8,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "mantiene",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mantiene"
+    },
+    {
+        "id":  "tec_017",
+        "nombre":  "Marco defensivo",
+        "categoria":  "marcos_defensivos",
+        "subcategoria":  "doble",
+        "descripcion":  "Marco para controlar espacio inmediato.",
+        "nivel":  "basico",
+        "posicionesValidas":  [
+                                  "de_pie",
+                                  "sentado",
+                                  "derribado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "clinch",
+                                  "corta"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda",
+                                       "desde_atras"
+                                   ],
+        "limitantesIncompatibles":  [
+
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  true,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  false,
+        "compatibleConPiernaLimitada":  true,
+        "faseSugerida":  [
+                             "respuesta_inicial",
+                             "salida_control_separacion"
+                         ],
+        "puedeIniciar":  true,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_013",
+                                    "tec_014"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "salida_tactica":  7
+                                },
+        "erroresComunes":  [
+                               "codos abiertos"
+                           ],
+        "tags":  [
+                     "marco",
+                     "control"
+                 ],
+        "familia":  "bloqueo",
+        "tipo":  "marco",
+        "variante":  "doble",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  3,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  8,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "mantiene",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mejora"
+    },
+    {
+        "id":  "tec_018",
+        "nombre":  "Recepcion contra empujon",
+        "categoria":  "recepciones",
+        "subcategoria":  "absorcion",
+        "descripcion":  "Absorbe empujon y estabiliza postura.",
+        "nivel":  "basico",
+        "posicionesValidas":  [
+                                  "de_pie"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "corta"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "suelo_resbaladizo"
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  false,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  true,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  false,
+        "faseSugerida":  [
+                             "respuesta_inicial"
+                         ],
+        "puedeIniciar":  true,
+        "puedeContinuar":  true,
+        "puedeCerrar":  false,
+        "transicionesValidas":  [
+                                    "tec_011",
+                                    "tec_013"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "respuesta_basica":  9
+                                },
+        "erroresComunes":  [
+                               "peso atras"
+                           ],
+        "tags":  [
+                     "empujon",
+                     "recepcion"
+                 ],
+        "familia":  "desvio",
+        "tipo":  "recepcion",
+        "variante":  "absorcion",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  3,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  8,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "mantiene",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mejora"
+    },
+    {
+        "id":  "tec_019",
+        "nombre":  "Giro de salida en pared",
+        "categoria":  "giros",
+        "subcategoria":  "pared",
+        "descripcion":  "Giro corto para salir de encierro en pared.",
+        "nivel":  "intermedio",
+        "posicionesValidas":  [
+                                  "de_pie",
+                                  "sentado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "clinch",
+                                  "corta"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "lado_derecho",
+                                       "lado_izquierdo"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "lado_derecho_bloqueado",
+                                        "lado_izquierdo_bloqueado"
+                                    ],
+        "requiereMovilidad":  true,
+        "requiereGiro":  true,
+        "tipoGiro":  "parcial",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  true,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  false,
+        "faseSugerida":  [
+                             "ajuste_reorientacion",
+                             "salida_control_separacion"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_013",
+                                    "tec_014"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "adaptacion_espacial":  8
+                                },
+        "erroresComunes":  [
+                               "sin marco previo"
+                           ],
+        "tags":  [
+                     "giro",
+                     "pared"
+                 ],
+        "familia":  "desplazamiento",
+        "tipo":  "giro",
+        "variante":  "pared",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  2,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  12,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "mantiene",
+        "efectoOrientacion":  "desfasada",
+        "efectoEquilibrio":  "compromete"
+    },
+    {
+        "id":  "tec_020",
+        "nombre":  "Reencuadre sentado",
+        "categoria":  "separaciones",
+        "subcategoria":  "sentado",
+        "descripcion":  "Reencuadra cadera sentado y separa para crear ventana.",
+        "nivel":  "intermedio",
+        "posicionesValidas":  [
+                                  "sentado",
+                                  "derribado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "corta"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "lado_derecho",
+                                       "lado_izquierdo"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "incorporacion_dificil"
+                                    ],
+        "requiereMovilidad":  true,
+        "requiereGiro":  true,
+        "tipoGiro":  "parcial",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  true,
+        "permitidaSuelo":  true,
+        "requiereApoyoCompleto":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  false,
+        "compatibleConPiernaLimitada":  false,
+        "faseSugerida":  [
+                             "ajuste_reorientacion",
+                             "salida_control_separacion"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_015",
+                                    "tec_014"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "incorporacion":  8
+                                },
+        "erroresComunes":  [
+                               "no proteger cabeza"
+                           ],
+        "tags":  [
+                     "sentado",
+                     "separacion"
+                 ],
+        "familia":  "separacion",
+        "tipo":  "separacion",
+        "variante":  "sentado",
+        "repetible":  true,
+        "maxRepeticionesSugeridas":  2,
+        "repeticionConsecutivaPermitida":  true,
+        "penalizacionPorRepeticion":  14,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "amplia",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mejora"
+    },
+    {
+        "id":  "tec_021",
+        "nombre":  "Proyeccion de cadera",
+        "categoria":  "proyecciones",
+        "subcategoria":  "cadera",
+        "descripcion":  "Carga de cadera para proyectar al agresor tras desequilibrio previo.",
+        "nivel":  "avanzado",
+        "posicionesValidas":  [
+                                  "de_pie"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "clinch"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "movilidad_parcial",
+                                        "suelo_resbaladizo"
+                                    ],
+        "requiereMovilidad":  true,
+        "requiereGiro":  true,
+        "tipoGiro":  "parcial",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  false,
+        "permitidaSentado":  false,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  true,
+        "requiereEspacioAmplio":  true,
+        "compatibleConManoOcupada":  false,
+        "compatibleConPiernaLimitada":  false,
+        "faseSugerida":  [
+                             "accion_principal"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_024",
+                                    "tec_013"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "continuidad":  8
+                                },
+        "erroresComunes":  [
+                               "entrar sin romper base"
+                           ],
+        "tags":  [
+                     "proyeccion",
+                     "cadera"
+                 ],
+        "familia":  "proyeccion",
+        "tipo":  "proyeccion",
+        "variante":  "cadera",
+        "repetible":  false,
+        "maxRepeticionesSugeridas":  1,
+        "repeticionConsecutivaPermitida":  false,
+        "penalizacionPorRepeticion":  30,
+        "compatibleDespuesDe":  [
+                                    "control",
+                                    "golpe_puno",
+                                    "rodillazo"
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "acorta",
+        "efectoOrientacion":  "desfasada",
+        "efectoEquilibrio":  "compromete"
+    },
+    {
+        "id":  "tec_022",
+        "nombre":  "Barrido con desequilibrio",
+        "categoria":  "derribos",
+        "subcategoria":  "barrido",
+        "descripcion":  "Barrido corto tras romper equilibrio del agresor.",
+        "nivel":  "intermedio",
+        "posicionesValidas":  [
+                                  "de_pie"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "corta",
+                                  "contacto"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "lado_derecho",
+                                       "lado_izquierdo"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "suelo_resbaladizo"
+                                    ],
+        "requiereMovilidad":  true,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitePared":  true,
+        "permitidaSentado":  false,
+        "permitidaSuelo":  false,
+        "requiereApoyoCompleto":  true,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  true,
+        "compatibleConPiernaLimitada":  false,
+        "faseSugerida":  [
+                             "accion_principal"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_024",
+                                    "tec_013"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "continuidad":  7
+                                },
+        "erroresComunes":  [
+                               "barrer sin control superior"
+                           ],
+        "tags":  [
+                     "derribo",
+                     "barrido"
+                 ],
+        "familia":  "derribo",
+        "tipo":  "derribo",
+        "variante":  "barrido",
+        "repetible":  false,
+        "maxRepeticionesSugeridas":  1,
+        "repeticionConsecutivaPermitida":  false,
+        "penalizacionPorRepeticion":  24,
+        "compatibleDespuesDe":  [
+                                    "control",
+                                    "golpe_puno",
+                                    "patada"
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "acorta",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "compromete"
+    },
+    {
+        "id":  "tec_023",
+        "nombre":  "Luxacion basica de muneca",
+        "categoria":  "luxaciones",
+        "subcategoria":  "muneca",
+        "descripcion":  "Control articular corto sobre la muneca para inmovilizacion momentanea.",
+        "nivel":  "intermedio",
+        "posicionesValidas":  [
+                                  "de_pie",
+                                  "sentado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "clinch"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "lado_derecho",
+                                       "lado_izquierdo"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "mano_ocupada"
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitidaSentado":  true,
+        "permitidaSuelo":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  false,
+        "compatibleConPiernaLimitada":  true,
+        "faseSugerida":  [
+                             "salida_control_separacion",
+                             "accion_principal"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_013"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "continuidad":  9
+                                },
+        "erroresComunes":  [
+                               "forzar sin alineacion"
+                           ],
+        "tags":  [
+                     "luxacion",
+                     "muneca"
+                 ],
+        "familia":  "luxacion",
+        "tipo":  "luxacion",
+        "variante":  "muneca",
+        "repetible":  false,
+        "maxRepeticionesSugeridas":  2,
+        "repeticionConsecutivaPermitida":  false,
+        "penalizacionPorRepeticion":  20,
+        "compatibleDespuesDe":  [
+                                    "control",
+                                    "proyeccion",
+                                    "derribo"
+                                ],
+        "compatibleAntesDe":  [
+
+                              ],
+        "efectoDistancia":  "mantiene",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mejora"
+    },
+    {
+        "id":  "tec_024",
+        "nombre":  "Control articular de brazo",
+        "categoria":  "controles",
+        "subcategoria":  "articular",
+        "descripcion":  "Control del codo y hombro para fijar estructura y preparar cierre.",
+        "nivel":  "intermedio",
+        "posicionesValidas":  [
+                                  "de_pie",
+                                  "sentado"
+                              ],
+        "subposicionesValidas":  [
+                                     "*"
+                                 ],
+        "distanciasValidas":  [
+                                  "contacto",
+                                  "clinch",
+                                  "corta"
+                              ],
+        "direccionesCompatibles":  [
+                                       "frente",
+                                       "diagonal_derecha",
+                                       "diagonal_izquierda"
+                                   ],
+        "limitantesIncompatibles":  [
+                                        "mano_ocupada"
+                                    ],
+        "requiereMovilidad":  false,
+        "requiereGiro":  false,
+        "tipoGiro":  "ninguno",
+        "ladoEjecutable":  "ambos",
+        "ladosIncompatibles":  [
+
+                               ],
+        "permitidaSentado":  true,
+        "permitidaSuelo":  false,
+        "requiereEspacioAmplio":  false,
+        "compatibleConManoOcupada":  false,
+        "compatibleConPiernaLimitada":  true,
+        "faseSugerida":  [
+                             "accion_principal",
+                             "salida_control_separacion"
+                         ],
+        "puedeIniciar":  false,
+        "puedeContinuar":  true,
+        "puedeCerrar":  true,
+        "transicionesValidas":  [
+                                    "tec_023",
+                                    "tec_013"
+                                ],
+        "transicionesInvalidas":  [
+
+                                  ],
+        "prioridadContextual":  {
+                                    "salida_tactica":  5,
+                                    "continuidad":  8
+                                },
+        "erroresComunes":  [
+                               "controlar sin base"
+                           ],
+        "tags":  [
+                     "control",
+                     "articular"
+                 ],
+        "familia":  "control",
+        "tipo":  "control",
+        "variante":  "articular",
+        "repetible":  false,
+        "maxRepeticionesSugeridas":  2,
+        "repeticionConsecutivaPermitida":  false,
+        "penalizacionPorRepeticion":  18,
+        "compatibleDespuesDe":  [
+
+                                ],
+        "compatibleAntesDe":  [
+                                  "luxacion",
+                                  "proyeccion",
+                                  "derribo",
+                                  "separacion"
+                              ],
+        "efectoDistancia":  "acorta",
+        "efectoOrientacion":  "mantiene",
+        "efectoEquilibrio":  "mejora"
+    }
+]
